@@ -15,7 +15,8 @@
 
 
 body {
-    background:rgb(0, 0, 0);
+    background:#000000;
+    /* background:#a41947; */
 }
 
 
@@ -26,7 +27,7 @@ a, .la-ball-triangle-path {
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#d2b356;
+    color:#a41947;
 }
 
 /* Default Icon Color */
@@ -68,8 +69,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #d2b356;
-    border-color: #d2b356;
+    color: #a41947;
+    border-color: #a41947;
 }    
 
 
@@ -191,7 +192,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#ffffff;
 }
 
 /* Testimonial */
@@ -306,8 +307,9 @@ h6 {
 /* Button Hover Color */
 
 #banner .button:hover {
-    color:#d2b356;
-    border-color:#d2b356;
+    color:#ffffff;
+    border-color:#a41947;
+    /* opacity: .5; */
 }
 
 
