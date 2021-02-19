@@ -47,6 +47,15 @@ $(document).ready(function () {
 
 });
 
+//media Query .navbar
+$(window).on('load resize',function() {
+	if ($(this).width() < 1026) {
+		$('.col-1').removeClass("navbar");
+	} else {
+		 $('.col-1').addClass("navbar");
+	}
+   });
+
 
 /* Preloader and animations */
 $(window).load(function () { // makes sure the whole site is loaded

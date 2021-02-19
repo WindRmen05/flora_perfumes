@@ -13,9 +13,13 @@
 /* 1. Website Default Styling */
 /*------------------------------------------------------------------------------------------*/
 
+:root {
+    --black-color: rgb(0, 0, 0);
+    --white-color: rgb(255, 255, 255);
+}
 
 body {
-    background:#000000;
+    background:#fff;
     /* background:#a41947; */
 }
 
@@ -55,7 +59,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 
@@ -87,7 +91,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
-    color:rgb(255, 255, 255);    
+    color:#fff;    
 }
 
 /* .section-heading h2:after {
@@ -106,7 +110,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Icon Colors */
 
 .primary-color .icon i, .primary-color i {
-    color:#fff;
+    color:var(--black-color);
 }
 
 
@@ -139,7 +143,7 @@ body {
     font-family: 'Krona One', sans-serif;
     font-size:15px;
     font-weight:normal;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 /* Logo, if you are using Fonts as Logo and not image
@@ -168,14 +172,14 @@ body {
     font-size:62px;
     line-height:60px;
     font-weight:800;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:18px;
     font-weight:300;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 
@@ -185,14 +189,14 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 34px; 
     font-weight:700;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 .section-subtitle {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#ffffff;
+    color:#000000;
 }
 
 /* Testimonial */
@@ -214,42 +218,42 @@ h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 40px; 
     font-weight:300;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 34px; 
     font-weight:300;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 30px; 
     font-weight:700;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 h4 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 18px; 
     font-weight:400;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 h5 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px; 
     font-weight:400;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 14px; 
     font-weight:400;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 
@@ -266,7 +270,7 @@ h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:14px;
     font-weight:bold;
-    color:#111;
+    color:var(--black-color);
 }
 
 
@@ -293,21 +297,21 @@ h6 {
 #banner .button {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:16px;
-    color:rgb(255, 255, 255);
+    color:var(--black-color);
 }
 
 
 /* Button Color */
 
 #banner .button {
-    border-color:rgb(255, 255, 255);
+    border-color:var(--black-color);
 }
 
 
 /* Button Hover Color */
 
 #banner .button:hover {
-    color:#ffffff;
+    color:#000000;
     border-color:#a41947;
     /* opacity: .5; */
 }
