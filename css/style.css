@@ -303,6 +303,11 @@ section {
     display:flex;
 }
 
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* --------- 2.1 Header --------- */
 .landing_header {
     text-align:center;
