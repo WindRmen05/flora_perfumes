@@ -1623,7 +1623,7 @@ blockquote {
 /*Preloader*/
 
 #preloader {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -1633,14 +1633,22 @@ blockquote {
 }
 
 #status {
+    /* background-color: #222; */
     width: 110px;
     height: 110px;
-    position: absolute;
+    position: fixed;
     left: 50%; /* centers the loading animation horizontally one the screen */
     top: 50%; /* centers the loading animation vertically one the screen */
-    background-position: center;
-    margin: -55px 0 0 -55px; /* is width and height divided by two */
-    text-align: center;
+    transform: translate(-50%,-50%);
+    /* margin: -55px 0 0 -55px; is width and height divided by two */
+    /* text-align: center; */
+}
+
+#status div {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    /* transform: translate(-50%,-50%); */
 }
 
 /*!
@@ -1657,7 +1665,7 @@ blockquote {
 }
 
 .la-ball-triangle-path {
-    display: block;
+    /* display: block; */
     font-size: 0;
     color: #fff;
 }
@@ -1667,7 +1675,7 @@ blockquote {
 }
 
 .la-ball-triangle-path > div {
-    display: inline-block;
+    /* display: inline-block; */
     float: none;
     background-color: currentColor;
     border: 0 solid currentColor;
