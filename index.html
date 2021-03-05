@@ -155,7 +155,7 @@
                 </div>
 
                 <!--Call to Action-->
-                <a href="#" class="button">Discover More...</a>
+                <a href="#gallery" class="button">Discover More...</a>
                 <!--End Call to Action-->
 
             </div>
@@ -381,4 +381,15 @@
 
 </body>
 <script src="js/scrollreveal.js"></script>
+<script>
+    var $root = $('html, body');
+
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+
+    return false;
+});
+</script>
 </html>

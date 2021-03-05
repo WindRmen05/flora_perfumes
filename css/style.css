@@ -348,7 +348,7 @@ section {
 /* ---whatsapp--- */
 #whatsapp {
     position: fixed;
-    top:250px;
+    bottom:40px;
     right:40px;
     z-index:99999;
 }
